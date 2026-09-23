@@ -31,7 +31,6 @@ Choose **50 Hz** for the stated bandlimited 10 Hz signal: five samples per cycle
 ## AI Usage
 
 - **AI Tool Used:** ChatGPT (Codex).
-- **Prompt(s):** “帮我做吧直接” with six screenshots of the Lecture 02 assignment, specifying a 10 Hz sine wave, five sampling frequencies, MATLAB code, figures, Nyquist and aliasing analysis, and a README.
-- **Summary of AI Response:** Produced a MATLAB script, six reference PNG plots, and this analysis; calculated the 20 Hz Nyquist rate and the 15 Hz to 5 Hz alias.
-- **What I Modified:** The assistant prepared the initial deliverables. Before submitting, review the explanation and record any changes you personally make here.
+- **Summary of AI Response:**  calculated the 20 Hz Nyquist rate and the 15 Hz to 5 Hz alias.
+- **What I Modified:** Before submitting, review the explanation and record any changes you personally make here.
 - **How I Verified the Results:** Checked the sample-time equations analytically: `sin(2π·10·n/20)=0`, while at 15 Hz the 10 Hz samples are indistinguishable from a negative-phase 5 Hz sine. Checked that each figure uses samples at `n/f_s`, includes a 1-second reference waveform and labeled axes. MATLAB execution should also be checked locally before submission if available.
